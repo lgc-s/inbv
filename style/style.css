@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.button-temp {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 16px;
+    margin: 4px;
+    padding: 8px;
+    width: 128px;
+}
+
+.button-temp:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer-temp {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.header-temp {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.logo-temp {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.main-temp {
+    height: 100vh;
+}
+
+.menu-tab-temp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 16px;
+}
+
+@media (max-width: 600px) {
+    .button-temp {
+        font-size: 16px;
+        margin: 2px;
+        padding: 4px;
+        width: 96px;
+    }
+    .header-temp {
+        flex-direction: column;
+    }
+    .logo-temp {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    .menu-tab-temp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+  }
