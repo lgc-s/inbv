@@ -51,6 +51,21 @@ body {
     padding: 0px 16px;
 }
 
+.menu-tab-temp-mobile {
+    background-color: black;
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8px;
+    padding: 16px;
+}
+
+
+.mobile-button-temp {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .button-temp {
         font-size: 16px;
@@ -66,9 +81,9 @@ body {
         margin-bottom: 16px;
     }
     .menu-tab-temp {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
+        display: none;
+    }
+    .mobile-button-temp {
+        display: inline;
     }
   }
