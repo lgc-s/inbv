@@ -1,4 +1,4 @@
-![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTriw1sB7nhEzu7RaSok287CizmGbzhx1hyfQ&s)
+![INBV](https://github.com/user-attachments/assets/fa5fe2e3-dfd0-4bef-8987-2edabcc720d9)
 
 ## About:
 
@@ -6,7 +6,7 @@ This is a private development repository used to store and track development of 
 
 #### Prototype
 
-In Development
+https://www.figma.com/design/FrAFrDjl5GW0O7Lq6LNBDW/INBV
 
 ## Technologies used:
 
