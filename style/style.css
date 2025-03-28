@@ -2,19 +2,19 @@ body {
     margin: 0;
 }
 
-.button-temp {
+.button {
     color: white;
-    background-color: black;
-    border: 1px solid white;
-    font-size: 16px;
+    background-color: rgb(47, 47, 47);
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
     margin: 4px;
-    padding: 8px;
-    width: 128px;
+    padding: 6px;
 }
 
-.button-temp:hover {
-    background-color: white;
-    color: black;
+.button:hover {
+    background-color: rgb(15, 15, 15);
+    transition: ease 0.5s;
 }
 
 .footer-temp {
@@ -26,11 +26,11 @@ body {
     padding: 16px;
 }
 
-.header-temp {
+.header {
     align-items: center;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 16px;
 }
 
@@ -38,11 +38,14 @@ body {
     height: 100vh;
 }
 
-.menu-tab-temp {
+.menu-tab {
+    background-color: rgb(47, 47, 47);
+    border-radius: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0px 16px;
+    margin: 16px;
+    padding: 0px 24px;
 }
 
 .menu-tab-temp-mobile {
@@ -55,9 +58,43 @@ body {
     padding: 16px;
 }
 
-
 .mobile-button-temp {
     display: none;
+}
+
+.social {
+    display: flex;
+    height: 40px;
+}
+
+.social-button:hover .svg-hover {
+    fill: black;
+    transition: ease 0.5s;
+}
+
+.social-button:hover .svg-hover-invert {
+    fill: white;
+    transition: ease 0.5s;
+}
+
+.social-button {
+    background-color: black;
+    border-radius: 100%;
+    margin: 0 4px;
+    padding: 8px;
+}
+
+.social-button:hover {
+    background-color: white;
+    transition: ease 0.5s;
+}
+
+.svg-hover {
+    fill: white
+}
+
+.svg-hover-invert {
+    fill: black
 }
 
 @media (max-width: 600px) {
