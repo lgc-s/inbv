@@ -2,11 +2,25 @@ body {
     margin: 0;
 }
 
+p {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.albert-sans {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .button {
     color: white;
     background-color: rgb(47, 47, 47);
     border: none;
     border-radius: 24px;
+    font-family: "Albert Sans", sans-serif;
     font-size: 14px;
     margin: 4px;
     padding: 8px;
@@ -17,6 +31,7 @@ body {
     background-color: rgb(47, 47, 47);
     border: none;
     border-radius: 24px;
+    font-family: "Albert Sans", sans-serif;
     font-size: 14px;
     margin: 4px;
     padding: 8px;
@@ -32,25 +47,27 @@ body {
     transition: ease 0.5s;
 }
 
-.footer-temp {
-    align-items: center;
+.footer {
+    align-items: left;
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
-    padding: 16px;
+    flex-direction: column;
+    padding: 32px;
+    padding-left: 10vw;
+    padding-bottom: 7vh;
 }
 
 .header {
-    align-items: center;
     background-color: black;
-    display: flex;
-    justify-content: space-evenly;
+    height: auto;
     padding: 16px;
 }
 
-.main-temp {
-    height: 100vh;
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 64px 0px;
 }
 
 .menu-tab {
@@ -69,9 +86,9 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     margin: 8px;
-    padding: 16px;
+    padding: 8px;
+    width: 75%;
 }
 
 .mobile-button {
@@ -91,9 +108,39 @@ body {
     transition: ease 0.5s;
 }
 
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.open-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.p-footer {
+    margin: 4px 0px;
+}
+
 .social {
     display: flex;
     height: 40px;
+}
+
+.social-home {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.social-mobile-tab {
+    display: flex;
+    height: 40px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .social-button:hover .svg-hover {
@@ -126,20 +173,58 @@ body {
     fill: black
 }
 
+.home-text-p {
+    margin-bottom: 48px;
+}
+
 @media (max-width: 600px) {
-    .button-temp {
+    .button {
         font-size: 16px;
         margin: 2px;
         padding: 4px;
         width: 96px;
     }
+    .footer {
+        font-size: 12px;
+    }
     .header {
         justify-content: space-between;
         padding: 16px;
     }
-    .logo-temp {
-        font-size: 24px;
-        margin-bottom: 16px;
+    .home {
+        display: none;
+    }
+    .home-image {
+        border-radius: 0px;
+    }
+    .home-mobile {
+        background-color: black;
+        border-radius: 32px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        overflow: hidden;
+    }
+    .home-text {
+        font-size: 14px;
+        margin: 0px;
+        padding: 24px;
+    }
+    .home-text-p {
+        font-size: 14px;
+        margin: 0px;
+        padding: 24px;
+    }
+    .home-social-button {
+        background-color: black;
+        border-radius: 100%;
+        height: 27px;
+        margin: 0 4px;
+        padding: 8px;
+    }
+    .main {
+        margin: 40px 0px;
     }
     .menu-tab {
         display: none;
@@ -149,5 +234,12 @@ body {
     }
     .social {
         display: none;
+    }
+    .social-home {
+        display: flex;
+        height: 40px;
+        justify-content: left;
+        margin-bottom: 24px;
+        padding: 0px 24px 24px 24px;
     }
   }
