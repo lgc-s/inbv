@@ -2,17 +2,45 @@ body {
     margin: 0;
 }
 
-p {
-    font-family: "Albert Sans", sans-serif;
-    font-weight: 600;
+@font-face {
+    font-family: Albert Sans;
     margin: 0px;
+    src: url(../fonts/AlbertSans.ttf);
 }
 
-.albert-sans {
-    font-family: "Albert Sans", sans-serif;
-    font-optical-sizing: auto;
+@font-face {
+    font-family: Unbounded;
+    margin: 0px;
+    src: url(../fonts/Unbounded.ttf);
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    height: 0;
+}
+
+.banner {
+    background-image: url(../img/png/banner.png);
+    background-size: cover;
+    background-position: left;
+    border-radius: 32px;
+    width: 40vw;
+    height: 60vh;
+}
+
+.title {
+    font-family: Unbounded;
+    color: white;
     font-weight: 400;
-    font-style: normal;
+    font-size: 36px;
+}
+
+.description {
+    font-family: Albert Sans;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 48px;
 }
 
 .button {
@@ -20,8 +48,8 @@ p {
     background-color: rgb(47, 47, 47);
     border: none;
     border-radius: 24px;
-    font-family: "Albert Sans", sans-serif;
-    font-size: 14px;
+    font-family: Albert Sans;
+    font-size: 16px;
     margin: 4px;
     padding: 8px;
 }
@@ -31,7 +59,6 @@ p {
     background-color: rgb(47, 47, 47);
     border: none;
     border-radius: 24px;
-    font-family: "Albert Sans", sans-serif;
     font-size: 14px;
     margin: 4px;
     padding: 8px;
@@ -48,7 +75,6 @@ p {
 }
 
 .footer {
-    align-items: left;
     background-color: black;
     color: white;
     display: flex;
@@ -64,10 +90,17 @@ p {
     padding: 16px;
 }
 
-.main {
+.home {
+    background-color: black;
     display: flex;
     justify-content: center;
-    margin: 64px 0px;
+    align-items: center;
+    padding: 64px 0px;
+}
+
+.home-left {
+    width: 25%;
+    margin-right: 128px;
 }
 
 .menu-tab {
@@ -123,6 +156,8 @@ p {
 }
 
 .p-footer {
+    font-family: "Albert Sans", sans-serif;
+    font-size: 16px;
     margin: 4px 0px;
 }
 
@@ -133,7 +168,7 @@ p {
 
 .social-home {
     display: flex;
-    margin-bottom: 48px;
+    height: 48px;
 }
 
 .social-mobile-tab {
@@ -156,8 +191,21 @@ p {
 .social-button {
     background-color: black;
     border-radius: 100%;
+    height: 24px;
     margin: 0 4px;
     padding: 8px;
+}
+
+.social-button .home {
+    background-color: black;
+    border-radius: 100%;
+    height: 48px;
+    margin: 0 4px;
+    padding: 8px;
+}
+
+.social-home {
+    height: 32px;
 }
 
 .social-button:hover {
@@ -175,6 +223,14 @@ p {
 
 .home-text-p {
     margin-bottom: 48px;
+}
+
+.visit {
+    color: white;
+    font-family: Unbounded;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 24px;
 }
 
 @media (max-width: 600px) {
@@ -224,7 +280,7 @@ p {
         padding: 8px;
     }
     .main {
-        margin: 40px 0px;
+        padding: 40px 0px;
     }
     .menu-tab {
         display: none;
