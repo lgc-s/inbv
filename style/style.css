@@ -19,6 +19,26 @@ a {
     text-decoration: underline;
 }
 
+.about {
+    color: black;
+    padding: 0px 15vw;
+    min-height: 100vh;
+}
+
+.about-title {
+    font-family: Unbounded;
+    font-size: 32px;
+    margin-top: 64px;
+}
+
+.about-description {
+    font-family: Albert Sans;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 .banner {
     background-image: url(../img/png/banner.png);
     background-size: cover;
