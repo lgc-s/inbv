@@ -8,12 +8,12 @@ document.getElementById('box').addEventListener('click', () => {
         contentDiv.innerHTML = `
         <div class="open-box">
             <div class="menu-tab-mobile">
-                <button class="button-mobile"><b>Início</b></button>
-                <button class="button-mobile"><b>Sobre</b></button>
-                <button class="button-mobile"><b>Ministérios</b></button>
-                <button class="button-mobile"><b>Ação Social</b></button>
-                <button class="button-mobile"><b>NED</b></button>
-                <button class="button-mobile"><b>Programação</b></button>
+                    <a href="index.html"><button class="button"><b>Início</b></button></a>
+                    <a href="page1.html"></a><button class="button"><b>Página 1</b></button>
+                    <a href="page2.html"></a><button class="button"><b>Página 2</b></button>
+                    <a href="page3.html"></a><button class="button"><b>Página 3</b></button>
+                    <a href="page4.html"></a><button class="button"><b>Página 4</b></button>
+                    <a href="page5.html"></a><button class="button"><b>Página 5</b></button>
             </div>
             <div class="social-mobile-tab">
                 <div class="social-button">
