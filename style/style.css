@@ -128,6 +128,29 @@ a {
     justify-content: center;
 }
 
+.home-social-button {
+    background-color: black;
+    border-radius: 100%;
+    height: 32px;
+    margin: 0 4px;
+    padding: 8px;
+}
+
+.home-social-button:hover {
+    background-color: white;
+    transition: ease 0.5s;
+}
+
+.home-social-button:hover .svg-hover {
+    fill: black;
+    transition: ease 0.5s;
+}
+
+.home-social-button:hover .svg-hover-invert {
+    fill: white;
+    transition: ease 0.5s;
+}
+
 .home-container {
     align-items: center;
     display: flex;
