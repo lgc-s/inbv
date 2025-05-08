@@ -8,7 +8,7 @@ document.getElementById('box').addEventListener('click', () => {
         contentDiv.innerHTML = `
         <div class="open-box">
             <div class="menu-tab-mobile">
-                    <a href="index.html"><button class="button"><b>Início</b></button></a>
+                    <a href="index.html"></a><button class="button"><b>Início</b></button>
                     <a href="page1.html"></a><button class="button"><b>Página 1</b></button>
                     <a href="page2.html"></a><button class="button"><b>Página 2</b></button>
                     <a href="page3.html"></a><button class="button"><b>Página 3</b></button>

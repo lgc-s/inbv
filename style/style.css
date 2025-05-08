@@ -65,23 +65,15 @@ a {
 .banner {
     background-image: url(../img/png/banner.png);
     background-size: cover;
-    border-radius: 32px;
-    height: 60vh;
-    width: 40vw;
-}
-
-.title {
-    color: white;
-    font-family: Unbounded;
-    font-size: 36px;
-    font-weight: 400;
+    background-position: center;
+    width: 100%;
+    height: 85vh;
 }
 
 .description {
     color: white;
     font-family: Albert Sans;
-    font-weight: 700;
-    margin-bottom: 48px;
+    font-weight: 400;
 }
 
 .button {
@@ -131,20 +123,22 @@ a {
 }
 
 .home {
-    align-items: center;
     background-color: black;
     display: flex;
     justify-content: center;
-    padding: 64px 0px;
+}
+
+.home-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 32px 0px;
 }
 
 .home-mobile {
     display: none;
-}
-
-.home-left {
-    margin-right: 64px;
-    width: 25%;
 }
 
 .menu-tab {
@@ -211,7 +205,6 @@ a {
 
 .social-home {
     display: flex;
-    height: 48px;
 }
 
 .social-mobile-tab {
@@ -239,18 +232,6 @@ a {
     padding: 8px;
 }
 
-.social-button .home {
-    background-color: black;
-    border-radius: 100%;
-    height: 48px;
-    margin: 0 4px;
-    padding: 8px;
-}
-
-.social-home {
-    height: 32px;
-}
-
 .social-button:hover {
     background-color: white;
     transition: ease 0.5s;
@@ -264,47 +245,42 @@ a {
     fill: black
 }
 
+.title {
+    color: white;
+    font-family: Unbounded;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
 .visit {
     color: white;
     font-family: Unbounded;
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-top: 16px;
 }
 
 @media (max-width: 768px) {
-    .banner {
-        border-radius: 0;
-        height: 40vh;
-        margin-bottom: 32px;
-        margin-top: 32px;
-        width: 100vw;
-    }
     .description {
-        font-size: 14px;
         padding: 0px 48px;
         margin-bottom: 24px;
-        margin-top: 8px;
+        margin-top: 24px;
     }
     .footer {
         font-size: 12px;
     }
-    .header {
-        justify-content: space-between;
-        padding: 16px;
-    }
     .home {
         display: none;
     }
-    .home-image {
-        border-radius: 0px;
+    .home-container {
+        width: 100%;
     }
     .home-mobile {
         background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 16px 0;
     }
     .main {
         padding: 40px 0px;
@@ -321,11 +297,6 @@ a {
     .social {
         display: none;
     }
-    .social-home {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 32px;
-    }
     .title {
         font-size: 22px;
         margin: 0;
@@ -333,9 +304,6 @@ a {
         text-align: center;
     }
     .visit {
-        margin-bottom: 24px;
-        margin-top: 8px;
         padding: 0px 48px;
-        text-align: left;
     }
   }
