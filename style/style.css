@@ -19,24 +19,10 @@ a {
     text-decoration: underline;
 }
 
-.about {
-    color: black;
-    padding: 0px 15vw;
-    min-height: 100vh;
-}
-
-.about-title {
-    font-family: Unbounded;
-    font-size: 32px;
-    margin-top: 64px;
-}
-
-.about-description {
-    font-family: Albert Sans;
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 24px;
-    margin-bottom: 24px;
+.about {  
+    align-items: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .anchor {
@@ -164,6 +150,34 @@ a {
     display: none;
 }
 
+.main {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15vw;
+    min-height: 100vh;
+}
+
+.main-bold {
+    font-family: Unbounded;
+    font-size: 24px;
+}
+
+.main-title {
+    font-family: Unbounded;
+    font-size: 32px;
+    margin-top: 64px;
+}
+
+.main-description {
+    font-family: Albert Sans;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 .menu-tab {
     background-color: rgb(47, 47, 47);
     border-radius: 24px;
@@ -214,6 +228,24 @@ a {
     flex-direction: column;
     margin-top: 16px;
     width: 100%;
+}
+
+.preachers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+}
+
+.preacher {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+}
+
+.preacher-icon {
+    border-radius: 100%;
 }
 
 .p-footer {
