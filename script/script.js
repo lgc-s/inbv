@@ -8,12 +8,12 @@ document.getElementById('box').addEventListener('click', () => {
         contentDiv.innerHTML = `
         <div class="open-box">
             <div class="menu-tab-mobile">
-                    <a href="index.html"></a><button class="button"><b>Início</b></button>
-                    <a href="page1.html"></a><button class="button"><b>Página 1</b></button>
-                    <a href="page2.html"></a><button class="button"><b>Página 2</b></button>
-                    <a href="page3.html"></a><button class="button"><b>Página 3</b></button>
-                    <a href="page4.html"></a><button class="button"><b>Página 4</b></button>
-                    <a href="page5.html"></a><button class="button"><b>Página 5</b></button>
+                    <a href="index.html"></a><button class="albert animate button white"><b>Início</b></button>
+                    <a href="page1.html"></a><button class="albert animate button white"><b>Página 1</b></button>
+                    <a href="page2.html"></a><button class="albert animate button white"><b>Página 2</b></button>
+                    <a href="page3.html"></a><button class="albert animate button white"><b>Página 3</b></button>
+                    <a href="page4.html"></a><button class="albert animate button white"><b>Página 4</b></button>
+                    <a href="page5.html"></a><button class="albert animate button white"><b>Página 5</b></button>
             </div>
             <div class="social-mobile-tab">
                 <div class="social-button">

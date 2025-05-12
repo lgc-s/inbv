@@ -15,7 +15,6 @@ body {
 }
 
 a {
-    color: white;
     text-decoration: underline;
 }
 
@@ -25,13 +24,26 @@ a {
     flex-direction: column;
 }
 
+.albert {
+    font-family: Albert Sans;
+}
+
+.albert-400 {
+    font-family: Albert Sans;
+    font-weight: 400;
+}
+
+.albert-600 {
+    font-family: Albert Sans;
+    font-weight: 600;
+}
+
 .anchor {
     align-items: center;
     background-color: black;
     border: 2px solid white;
     border-radius: 100%;
     bottom: 0;
-    color: white;
     display: flex;
     height: 48px;
     justify-content: center;
@@ -45,6 +57,9 @@ a {
     background-color: white;
     border-color: black;
     color: black;
+}
+
+.animate {
     transition: ease 0.5s;
 }
 
@@ -60,8 +75,6 @@ a {
     background-color: black;
     border: none;
     border-radius: 24px;
-    color: white;
-    font-family: Albert Sans;
     font-size: 16px;
     margin: 4px;
     padding: 8px;
@@ -71,7 +84,6 @@ a {
     background-color: black;
     border: none;
     border-radius: 24px;
-    color: white;
     font-size: 14px;
     margin: 4px;
     padding: 8px;
@@ -79,18 +91,26 @@ a {
 
 .button:hover {
     background-color: rgb(31, 31, 31);
-    transition: ease 0.5s;
 }
 
 .button-mobile:hover {
     background-color: rgb(31, 31, 31);
-    transition: ease 0.5s;
 }
 
-.description {
-    color: white;
-    font-family: Albert Sans;
-    font-weight: 400;
+.contribute {
+    background-color: black;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 48px;
+    margin: 32px;
+}
+
+.contribute:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+.decoration-none {
+    text-decoration: none;
 }
 
 .events {
@@ -106,10 +126,10 @@ a {
 .event-content {
     border-radius: 4px;
     margin: 32px 16px 32px 32px;
+    flex-grow: 1;
 }
 
 .event-description {
-    color: white;
     font-family: Albert Sans;
     font-size: 16px;
     font-weight: 600;
@@ -122,14 +142,11 @@ a {
 
 .event-left {
     align-items: center;
-    color: white;
     display: flex;
     flex-direction: column;
 }
 
 .event-title {
-    color: white;
-    font-family: Unbounded;
     font-size: 24px;
     margin: 0;
 }
@@ -165,17 +182,14 @@ a {
 
 .home-social-button:hover {
     background-color: white;
-    transition: ease 0.5s;
 }
 
 .home-social-button:hover .svg-hover {
     fill: black;
-    transition: ease 0.5s;
 }
 
 .home-social-button:hover .svg-hover-invert {
     fill: white;
-    transition: ease 0.5s;
 }
 
 .home-container {
@@ -213,20 +227,16 @@ a {
 }
 
 .main-bold {
-    font-family: Unbounded;
     font-size: 24px;
 }
 
 .main-title {
-    font-family: Unbounded;
     font-size: 32px;
     margin-top: 64px;
 }
 
 .main-description {
-    font-family: Albert Sans;
     font-size: 16px;
-    font-weight: 600;
     margin-bottom: 24px;
     margin-top: 24px;
 }
@@ -259,12 +269,10 @@ a {
 
 .mobile-button:hover .svg-hover {
     fill: black;
-    transition: ease 0.5s;
 }
 
 .mobile-button:hover {
     background-color: white;
-    transition: ease 0.5s;
 }
 
 .nav {
@@ -322,12 +330,10 @@ a {
 
 .social-button:hover .svg-hover {
     fill: black;
-    transition: ease 0.5s;
 }
 
 .social-button:hover .svg-hover-invert {
     fill: white;
-    transition: ease 0.5s;
 }
 
 .social-button {
@@ -352,14 +358,11 @@ a {
 
 .subscribe:hover {
     background-color: rgb(31, 31, 31);
-    transition: ease 0.5s;
 }
 
 .subscribe:hover .subscribe-text {
     color: white;
-    transition: ease 0.5s;
 }
-
 
 .subscribe-text {
     color: black;
@@ -373,7 +376,6 @@ a {
     align-items: end;
     display: flex;
     margin-top: 16px;
-    text-decoration: none;
 }
 
 .svg-hover {
@@ -385,19 +387,35 @@ a {
 }
 
 .title {
-    color: white;
-    font-family: Unbounded;
     font-size: 36px;
-    font-weight: 400;
     margin-bottom: 16px;
 }
 
-.visit {
-    color: white;
+.unbounded {
     font-family: Unbounded;
-    font-size: 16px;
+}
+
+.unbounded-400 {
+    font-family: Unbounded;
+    font-weight: 400;
+}
+
+.unbounded-700 {
+    font-family: Unbounded;
     font-weight: 700;
+}
+
+.visit {
+    font-size: 16px;
     margin-top: 16px;
+}
+
+.white {
+    color: white;
+}
+
+.zero {
+    margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -405,6 +423,17 @@ a {
         margin-bottom: 24px;
         margin-top: 24px;
         padding: 0px 48px;
+    }
+    .events {
+        align-items: center;
+        background-color: black;
+        flex-direction: column;
+        margin: 24px;
+        min-width: fit-content;
+        padding: 24px;
+    }
+    .event-content {
+        margin: 32px 8px 8px 8px;
     }
     .footer {
         font-size: 12px;
@@ -420,6 +449,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 32px;
     }
     .main {
         padding: 40px 0px;
@@ -437,12 +467,8 @@ a {
         display: none;
     }
     .title {
-        font-size: 22px;
+        font-size: 32px;
         margin: 0;
-        padding: 0px 48px;
         text-align: center;
-    }
-    .visit {
-        padding: 0px 48px;
     }
   }
