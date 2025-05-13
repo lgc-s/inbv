@@ -64,10 +64,14 @@ a {
 }
 
 .banner {
+    align-items: center;
     background-image: url(../img/png/banner.png);
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: center;
     width: 100%;
 }
 
@@ -107,6 +111,12 @@ a {
 
 .contribute:hover {
     background-color: rgb(31, 31, 31);
+}
+
+.culto {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 16px;
 }
 
 .decoration-none {
@@ -279,6 +289,11 @@ a {
     align-items: center;
     display: flex;
     justify-content: space-around;
+}
+
+.nazareno {
+    width: 500px;
+    margin-bottom: 50px;
 }
 
 .open-box {
@@ -469,6 +484,9 @@ a {
     }
     .nav {
         justify-content: space-between;
+    }
+    .nazareno {
+        width: 256px;
     }
     .preacher {
         margin: 8px;
