@@ -1,0 +1,33 @@
+.main {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px 15vw;
+}
+
+.main-bold {
+    font-size: 24px;
+}
+
+.main-title {
+    font-size: 32px;
+    margin-top: 64px;
+}
+
+.main-description {
+    font-size: 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 0px;
+    }
+    .main-bold {
+        font-size: 16px;
+        text-align: center;
+    }
+}

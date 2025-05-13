@@ -1,0 +1,17 @@
+.contribute {
+    background-color: black;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 48px;
+    margin: 32px;
+}
+
+.contribute:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+@media (max-width: 768px) {
+    .contribute {
+        font-size: 24px;
+    }
+}

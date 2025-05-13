@@ -1,0 +1,11 @@
+.banner {
+    align-items: center;
+    background-image: url(../img/site/banner.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: center;
+    width: 100%;
+}

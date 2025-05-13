@@ -1,0 +1,42 @@
+.social {
+    display: flex;
+    height: 40px;
+}
+
+.social-home {
+    display: flex;
+}
+
+.social-mobile-tab {
+    display: flex;
+    height: 40px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.social-button:hover .svg-hover {
+    fill: black;
+}
+
+.social-button:hover .svg-hover-invert {
+    fill: white;
+}
+
+.social-button {
+    background-color: black;
+    border-radius: 100%;
+    height: 24px;
+    margin: 0 4px;
+    padding: 8px;
+}
+
+.social-button:hover {
+    background-color: white;
+    transition: ease 0.5s;
+}
+
+@media (max-width: 768px) {
+    .social {
+        display: none;
+    }
+}

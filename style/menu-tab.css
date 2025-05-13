@@ -1,0 +1,24 @@
+.menu-tab {
+    border-radius: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 16px;
+    padding: 0px 24px;
+}
+
+.menu-tab-mobile {
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 8px;
+    padding: 8px;
+    width: 75%;
+}
+
+@media (max-width: 768px) {
+    .menu-tab {
+        display: none;
+    }
+}

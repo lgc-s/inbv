@@ -1,0 +1,20 @@
+.anchor {
+    align-items: center;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 100%;
+    bottom: 0;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    margin: 16px;
+    position: fixed;
+    right: 0;
+    width: 48px;
+}
+
+.anchor:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}

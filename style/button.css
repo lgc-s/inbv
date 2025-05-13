@@ -1,0 +1,25 @@
+.button {
+    background-color: black;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    margin: 4px;
+    padding: 8px;
+}
+
+.button-mobile {
+    background-color: black;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    margin: 4px;
+    padding: 8px;
+}
+
+.button:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+.button-mobile:hover {
+    background-color: rgb(31, 31, 31);
+}

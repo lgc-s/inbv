@@ -1,0 +1,11 @@
+.icon {
+    align-items: center;
+    border-bottom: 1px solid rgb(127, 127, 127);
+    display: flex;
+    margin: 8px;
+}
+
+.icon-container {
+    height: 24px;
+    margin: 8px;
+}

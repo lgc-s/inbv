@@ -1,0 +1,54 @@
+.home {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.home-social-button {
+    background-color: black;
+    border-radius: 100%;
+    height: 32px;
+    margin: 0 4px;
+    padding: 8px;
+}
+
+.home-social-button:hover {
+    background-color: white;
+}
+
+.home-social-button:hover .svg-hover {
+    fill: black;
+}
+
+.home-social-button:hover .svg-hover-invert {
+    fill: white;
+}
+
+.home-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 0px;
+    width: 50%;
+}
+
+.home-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .home {
+        display: none;
+    }
+    .home-container {
+        width: 100%;
+    }
+    .home-mobile {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 32px;
+    }
+}

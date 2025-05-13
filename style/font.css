@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Albert Sans;
+    margin: 0px;
+    src: url(../fonts/AlbertSans.ttf);
+}
+
+@font-face {
+    font-family: Unbounded;
+    margin: 0px;
+    src: url(../fonts/Unbounded.ttf);
+}
+
+.albert {
+    font-family: Albert Sans;
+}
+
+.albert-400 {
+    font-family: Albert Sans;
+    font-weight: 400;
+}
+
+.albert-600 {
+    font-family: Albert Sans;
+    font-weight: 600;
+}
+
+.unbounded {
+    font-family: Unbounded;
+}
+
+.unbounded-400 {
+    font-family: Unbounded;
+    font-weight: 400;
+}
+
+.unbounded-700 {
+    font-family: Unbounded;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 32px;
+        margin: 0;
+        text-align: center;
+    }
+}

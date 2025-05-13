@@ -1,0 +1,20 @@
+.mobile-button {
+    border-radius: 100%;
+    display: none;
+    height: 24px;
+    padding: 8px;
+}
+
+.mobile-button:hover .svg-hover {
+    fill: black;
+}
+
+.mobile-button:hover {
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .mobile-button {
+        display: inline;
+    }
+}
