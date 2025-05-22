@@ -1,46 +1,96 @@
 @font-face {
-    font-family: Albert Sans;
+    font-family: Gilroy;
     margin: 0px;
-    src: url(../fonts/AlbertSans.ttf);
+    src: url(../fonts/Gilroy.ttf);
 }
 
 @font-face {
-    font-family: Unbounded;
+    font-family: Extenda;
     margin: 0px;
-    src: url(../fonts/Unbounded.ttf);
+    src: url(../fonts/Extenda.ttf);
 }
 
-.albert {
-    font-family: Albert Sans;
+@font-face {
+    font-family: PlaywriteBR;
+    margin: 0px;
+    src: url(../fonts/PlaywriteBR.ttf);
 }
 
-.albert-400 {
-    font-family: Albert Sans;
-    font-weight: 400;
+.bold {
+    font-weight: bold;
 }
 
-.albert-600 {
-    font-family: Albert Sans;
-    font-weight: 600;
+.gilroy {
+    font-family: Gilroy;
+    font-weight: bold;
 }
 
-.unbounded {
-    font-family: Unbounded;
+.gilroy-18 {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px;
 }
 
-.unbounded-400 {
-    font-family: Unbounded;
-    font-weight: 400;
+.gilroy-20 {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
-.unbounded-700 {
-    font-family: Unbounded;
-    font-weight: 700;
+.gilroy-24 {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.gilroy-32 {
+    font-family: Gilroy;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.extenda-32 {
+    font-family: Extenda;
+    font-size: 32px;
+    margin: 0;
+}
+
+.extenda-48 {
+    font-family: Extenda;
+    font-size: 48px;
+    margin: 0;
+}
+
+.extenda {
+    font-family: Extenda;
+    font-size: 64px;
+    margin: 0;
+}
+
+.playwrite-br {
+    font-family: PlaywriteBR;
+    font-size: 16px;
+    margin: 0;
+}
+
+.playwrite-br-32 {
+    font-family: PlaywriteBR;
+    font-size: 24px;
+    margin-top: 8px;
 }
 
 .title {
-    font-size: 36px;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 16px;
+}
+
+.title .extenda:first-child{
+    margin-right: 8px;
 }
 
 @media (max-width: 768px) {
