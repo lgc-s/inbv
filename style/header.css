@@ -2,3 +2,9 @@
     background-color: black;
     padding: 16px;
 }
+
+.header-title {
+    font-family: Unbounded;
+    margin: 0;
+    text-align: center;
+}
