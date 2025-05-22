@@ -1,4 +1,9 @@
 .visit {
-    font-size: 16px;
+    display: flex;
+    flex-direction: row;
     margin-top: 16px;
+}
+
+.visit .extenda-48:first-child{
+    margin-right: 8px;
 }

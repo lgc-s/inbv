@@ -8,11 +8,6 @@
     padding-left: 10vw;
 }
 
-.p-footer {
-    font-family: "Albert Sans", sans-serif;
-    margin: 4px 0px;
-}
-
 @media (max-width: 768px) {
     .footer {
         font-size: 12px;

@@ -34,22 +34,8 @@
     width: 50%;
 }
 
-.home-mobile {
-    display: none;
-}
-
 @media (max-width: 768px) {
-    .home {
-        display: none;
-    }
     .home-container {
         width: 100%;
-    }
-    .home-mobile {
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 32px;
     }
 }

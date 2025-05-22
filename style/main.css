@@ -1,14 +1,14 @@
-.main-bold {
-    font-size: 24px;
-}
-
 .main-title {
-    font-size: 32px;
+    display: flex;
+    justify-content: center;
     margin-top: 64px;
 }
 
+.main-title .extenda:first-child{
+    margin-right: 8px;
+}
+
 .main-description {
-    font-size: 16px;
     margin-bottom: 24px;
     margin-top: 24px;
 }
