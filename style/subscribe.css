@@ -23,6 +23,6 @@
 
 .subscribe-content {
     align-items: end;
-    display: flex;
-    margin-top: 16px;
+    margin: 0 16px;
+    width: fit-content;
 }

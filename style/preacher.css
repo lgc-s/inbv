@@ -11,6 +11,10 @@
     margin: 32px;
 }
 
+.preacher-area {
+    width: 75%;
+}
+
 .preacher-icon {
     border-radius: 100%;
 }

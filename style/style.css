@@ -1,7 +1,13 @@
+a {
+    text-decoration: underline;
+}
+
 body {
     margin: 0;
 }
 
-a {
-    text-decoration: underline;
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
