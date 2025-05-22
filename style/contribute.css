@@ -1,9 +1,26 @@
 .contribute {
+    align-items: center;
+    display: flex;
     background-color: black;
-    border-radius: 16px;
-    padding: 16px;
-    font-size: 48px;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: fit-content;
+    justify-content: center;
+    margin-top: 160px;
     margin: 32px;
+    padding: 16px;
+    width: fit-content;
+}
+
+.contribute-area {
+    align-items: end;
+    background-image: url(../img/site/front.png);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    width: 100%;
 }
 
 .contribute:hover {
