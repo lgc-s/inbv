@@ -1,7 +1,7 @@
 .visit {
     display: flex;
     flex-direction: row;
-    margin-top: 16px;
+    margin: 16px 0px;
 }
 
 .visit .extenda-48:first-child{
