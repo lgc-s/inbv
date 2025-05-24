@@ -13,14 +13,30 @@
 }
 
 .contribute-area {
-    align-items: end;
+    align-items: center;
     background-image: url(../img/site/front.png);
     background-size: cover;
     background-position: top;
     display: flex;
+    flex-direction: column;
     height: 50vh;
     justify-content: center;
     width: 100%;
+}
+
+.contribute-text {
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    padding: 16px;
+}
+
+.contribute-text .extenda:nth-child(1) {
+    margin-right: 8px;
+}
+
+.contribute-text .extenda:nth-child(2) {
+    margin-right: 8px;
 }
 
 .contribute:hover {
