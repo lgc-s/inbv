@@ -1,5 +1,5 @@
 .subscribe {
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     border-radius: 4px;
     padding: 8px;
     width: fit-content;
@@ -10,7 +10,7 @@
 }
 
 .subscribe-text {
-    color: black;
+    color: rgb(23, 23, 23);
     font-size: 16px;
     font-weight: 600;
     margin: 0;

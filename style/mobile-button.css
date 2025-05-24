@@ -6,11 +6,11 @@
 }
 
 .mobile-button:hover .svg-hover {
-    fill: black;
+    fill: rgb(23, 23, 23);
 }
 
 .mobile-button:hover {
-    background-color: white;
+    background-color: rgb(231, 231, 231);
 }
 
 @media (max-width: 768px) {

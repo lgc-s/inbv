@@ -1,8 +1,8 @@
 .contribute {
     align-items: center;
     display: flex;
-    background-color: black;
-    border: 2px solid white;
+    background-color: rgb(23, 23, 23);
+    border: 2px solid rgb(231, 231, 231);
     border-radius: 4px;
     height: fit-content;
     justify-content: center;
@@ -25,8 +25,8 @@
 }
 
 .contribute-text {
-    background-color: black;
-    border: 2px solid white;
+    background-color: rgb(23, 23, 23);
+    border: 2px solid rgb(231, 231, 231);
     display: flex;
     padding: 16px;
 }
@@ -40,7 +40,7 @@
 }
 
 .contribute:hover {
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(47, 47, 47);
 }
 
 @media (max-width: 768px) {
