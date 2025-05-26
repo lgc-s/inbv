@@ -1,9 +1,3 @@
-.preachers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .preacher {
     align-items: center;
     display: flex;
@@ -19,21 +13,28 @@
     border-radius: 100%;
 }
 
+.preachers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 @media (max-width: 768px) {
     .preacher {
-        margin: 8px;
         justify-content: center;
+        margin: 8px;
         width: 160px;
+    }
+    .preacher-area {
+        width: 100%;
     }
     .preacher-icon {
         height: 128px;
         width: 128px;
     }
-    .preacher-area {
-        width: 100%;
-    }
     .preachers {
-        width: 100%;
         margin-top: 32px;
+        width: 100%;
     }
 }

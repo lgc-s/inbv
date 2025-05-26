@@ -5,6 +5,15 @@
     width: 100%;
 }
 
+.home-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 96px 0px;
+    width: 50%;
+}
+
 .home-social-button {
     background-color: rgb(23, 23, 23);
     border-radius: 100%;
@@ -23,15 +32,6 @@
 
 .home-social-button:hover .svg-hover-invert {
     fill: rgb(231, 231, 231);
-}
-
-.home-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 96px 0px;
-    width: 50%;
 }
 
 @media (max-width: 768px) {

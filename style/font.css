@@ -20,11 +20,6 @@
     font-weight: bold;
 }
 
-.gilroy-mobile {
-    font-family: Gilroy;
-    font-size: 18px;
-}
-
 .gilroy {
     font-family: Gilroy;
     font-weight: bold;
@@ -55,8 +50,13 @@
     font-size: 32px;
     font-weight: bold;
     margin: 0;
-
 }
+
+.gilroy-mobile {
+    font-family: Gilroy;
+    font-size: 18px;
+}
+
 
 .extenda-32 {
     font-family: Extenda;

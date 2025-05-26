@@ -2,13 +2,19 @@
     background-color: rgb(231, 231, 231);
     border-radius: 4px;
     padding: 8px;
-    width: 96px;
     padding-top: 10px;
     text-align: center;
+    width: 96px;
 }
 
 .subscribe:hover {
     background-color: rgb(159, 159, 159);
+}
+
+.subscribe-content {
+    align-items: end;
+    margin: 0 16px;
+    width: fit-content;
 }
 
 .subscribe-text {
@@ -16,12 +22,6 @@
     font-size: 16px;
     font-weight: 600;
     margin: 0;
-}
-
-.subscribe-content {
-    align-items: end;
-    margin: 0 16px;
-    width: fit-content;
 }
 
 @media (max-width: 1080px) {
@@ -52,10 +52,10 @@
     .subscribe {
         width: 96px;
     }    
-    .subscribe-text {
-        font-size: 16px;
-    }
     .subscribe-content {
         margin: 16px 0 32px 0;
+    }
+    .subscribe-text {
+        font-size: 16px;
     }
 }

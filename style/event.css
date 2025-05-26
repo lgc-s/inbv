@@ -42,16 +42,6 @@
     max-height: 128px;
 }
 
-.events {
-    align-items: center;
-    background-color: rgb(47, 47, 47);
-    border-radius: 16px;
-    display: flex;
-    height: 160px;
-    margin: 32px 0px;
-    overflow: hidden;
-}
-
 .event-image {
     border-radius: 4px;
     height: 100%;
@@ -68,6 +58,16 @@
     font-size: 48px;
     margin: 0;
     text-align: left;
+}
+
+.events {
+    align-items: center;
+    background-color: rgb(47, 47, 47);
+    border-radius: 16px;
+    display: flex;
+    height: 160px;
+    margin: 32px 0px;
+    overflow: hidden;
 }
 
 .info {
@@ -87,6 +87,12 @@
         font-weight: 600;
         text-align: left;
     }    
+    .event-date {
+        font-family: Gilroy;
+        font-size: 16px;
+        margin: 0;
+        text-align: left;
+    }
     .event-number {
         font-family: Gilroy;
         font-size: 24px;
@@ -95,12 +101,6 @@
     .event-title {
         font-family: Extenda;
         font-size: 32px;
-        margin: 0;
-        text-align: left;
-    }
-    .event-date {
-        font-family: Gilroy;
-        font-size: 16px;
         margin: 0;
         text-align: left;
     }
@@ -113,23 +113,23 @@
 }
 
 @media (max-width: 940px) {
-    .events {
-        height: 128px;
-    }
     .event-title {
         font-family: Extenda;
         font-size: 27px;
         margin: 0;
         text-align: left;
     }
+    .events {
+        height: 128px;
+    }
 }
 
 @media (max-width: 790px) {
-    .events {
-        height: 120px;
-    }
     .date {
         margin: 0 12px;
+    }
+    .events {
+        height: 120px;
     }
 }
 
@@ -137,30 +137,30 @@
     .date {
         margin: 16px 0px 8px 0px;
     }
-    .events {
-        border-radius: 16px;
-        flex-direction: column;
-        margin: 16px 0px;
-        min-width: 0px;
-        height: fit-content;
-    }
-    .event-title {
-        font-size: 40px;
-        text-align: center;
-        margin-bottom: 8px;
-    }
     .event-content {
         margin: 24px 8px 8px 8px;
     }
     .event-details {
-        margin: 0px 32px;
-        max-height: none;
         height: fit-content;
         justify-content: flex-start;
+        margin: 0px 32px;
+        max-height: none;
         width: 240px;
     }    
     .event-image {
-        width: 316px;
         height: auto;
+        width: 316px;
+    }
+    .event-title {
+        font-size: 40px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .events {
+        border-radius: 16px;
+        flex-direction: column;
+        height: fit-content;
+        margin: 16px 0px;
+        min-width: 0px;
     }
 }
