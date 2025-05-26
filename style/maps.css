@@ -1,0 +1,17 @@
+.maps {
+    display: inline;
+}
+
+.maps-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .maps {
+        display: none;
+    }
+    .maps-mobile {
+        display: inline;
+
+    }
+}

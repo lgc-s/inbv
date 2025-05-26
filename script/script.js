@@ -7,12 +7,12 @@ document.getElementById('box').addEventListener('click', () => {
         contentDiv.classList.add('open-box');
         contentDiv.innerHTML = `
             <div class="menu-tab-mobile">
-                <a href="index.html" target="_blank"><button class="gilroy bold animate button white"><b>Início</b></button></a>
-                <a href="page1.html" target="_blank"><button class="gilroy bold animate button white"><b>Página 1</b></button></a>
-                <a href="page2.html" target="_blank"><button class="gilroy bold animate button white"><b>Página 2</b></button></a>
-                <a href="page3.html" target="_blank"><button class="gilroy bold animate button white"><b>Página 3</b></button></a>
-                <a href="page4.html" target="_blank"><button class="gilroy bold animate button white"><b>Página 4</b></button></a>
-                <a href="page5.html" target="_blank"><button class="gilroy bold animate button white"><b>Página 5</b></button></a>
+                <a href="index.html" target="_blank"><button class="gilroy-mobile bold animate button white"><b>Início</b></button></a>
+                <a href="page1.html" target="_blank"><button class="gilroy-mobile bold animate button white"><b>Página 1</b></button></a>
+                <a href="page2.html" target="_blank"><button class="gilroy-mobile bold animate button white"><b>Página 2</b></button></a>
+                <a href="page3.html" target="_blank"><button class="gilroy-mobile bold animate button white"><b>Página 3</b></button></a>
+                <a href="page4.html" target="_blank"><button class="gilroy-mobile bold animate button white"><b>Página 4</b></button></a>
+                <a href="page5.html" target="_blank"><button class="gilroy-mobile bold animate button white"><b>Página 5</b></button></a>
             </div>
             <div class="animate social-mobile-tab">
             <div class="social-button">

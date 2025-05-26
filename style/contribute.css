@@ -20,7 +20,7 @@
     background-position: top;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 60vh;
     justify-content: center;
     width: 100%;
 }
@@ -28,8 +28,10 @@
 .contribute-text {
     background-color: rgb(23, 23, 23);
     border: 2px solid rgb(231, 231, 231);
+    border-radius: 4px;
     display: flex;
     padding: 16px;
+    padding-top: 22px;
 }
 
 .contribute-text .extenda:nth-child(1) {
@@ -47,5 +49,9 @@
 @media (max-width: 768px) {
     .contribute {
         font-size: 24px;
+    }
+    .contribute-text {
+        flex-direction: column;
+        text-align: center;
     }
 }

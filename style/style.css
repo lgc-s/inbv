@@ -11,3 +11,8 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+iframe {
+    border-radius: 16px;
+    width: 100%;
+}

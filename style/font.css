@@ -20,6 +20,11 @@
     font-weight: bold;
 }
 
+.gilroy-mobile {
+    font-family: Gilroy;
+    font-size: 18px;
+}
+
 .gilroy {
     font-family: Gilroy;
     font-weight: bold;
@@ -85,8 +90,9 @@
 
 .title {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;    
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .title .extenda:first-child{
@@ -97,6 +103,46 @@
     .title {
         font-size: 32px;
         margin: 0;
+    }
+
+    .gilroy {
+        font-size: 14px;
+    }
+
+    .gilroy-18 {
+        font-size: 16px;
+    }
+    
+    .gilroy-20 {
+        font-size: 18px;    
+    }
+    
+    .gilroy-24 {
+        font-size: 22px;
+    }
+    
+    .gilroy-32 {
+        font-size: 30px;    
+    }
+    
+    .extenda-32 {
+        font-size: 30px;
+    }
+    
+    .extenda-48 {
+        font-size: 46px;
+    }
+    
+    .extenda {
+        font-size: 56px;
+    }
+    
+    .playwrite-br {
+        font-size: 14px;
+    }
+    
+    .playwrite-br-32 {
+        font-size: 16px;
         text-align: center;
     }
 }

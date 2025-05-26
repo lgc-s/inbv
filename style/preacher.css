@@ -22,13 +22,18 @@
 @media (max-width: 768px) {
     .preacher {
         margin: 8px;
-        width: 150px;
+        justify-content: center;
+        width: 160px;
     }
     .preacher-icon {
         height: 128px;
         width: 128px;
     }
+    .preacher-area {
+        width: 100%;
+    }
     .preachers {
         width: 100%;
+        margin-top: 32px;
     }
 }

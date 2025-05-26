@@ -6,11 +6,12 @@
 }
 
 .detail {
-    font-family: Albert Sans;
+    font-family: Gilroy;
     font-size: 16px;
     font-weight: 600;
-    margin: 8px 16px;
     text-align: left;
+    margin: 0px 0px 0px 8px;
+    max-height: 24px;
 }
 
 .event-area {
@@ -22,10 +23,23 @@
     padding-bottom: 64px;
 }
 
+.event-box {
+    width: fit-content;
+    margin: 0 32px;
+}
+
 .event-date {
-    font-family: Albert Sans;
+    font-family: Gilroy;
     font-size: 24px;
     margin: 0;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    max-height: 128px;
 }
 
 .events {
@@ -33,45 +47,120 @@
     background-color: rgb(47, 47, 47);
     border-radius: 16px;
     display: flex;
-    margin: 32px;
+    height: 160px;
+    margin: 32px 0px;
     overflow: hidden;
 }
 
 .event-image {
     border-radius: 4px;
-    height: 150px;
+    height: 100%;
 }
 
 .event-number {
-    font-family: Albert Sans;
+    font-family: Gilroy;
     font-size: 32px;
     margin: 0;
 }
 
 .event-title {
-    font-family: Albert Sans;
-    font-size: 16px;
+    font-family: Extenda;
+    font-size: 48px;
     margin: 0;
-    margin-bottom: 8px;
     text-align: left;
 }
 
 .info {
-    align-items: center;
     display: flex;
-    width: 400px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 8px 0px;
+}
+
+@media (max-width: 1175px) {
+    .date {
+        margin: 0 16px;
+    }
+    .detail {
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+    }    
+    .event-number {
+        font-family: Gilroy;
+        font-size: 24px;
+        margin: 0;
+    }
+    .event-title {
+        font-family: Extenda;
+        font-size: 32px;
+        margin: 0;
+        text-align: left;
+    }
+    .event-date {
+        font-family: Gilroy;
+        font-size: 16px;
+        margin: 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1080px) {
+    .events {
+        height: 144px;
+    }
+}
+
+@media (max-width: 940px) {
+    .events {
+        height: 128px;
+    }
+    .event-title {
+        font-family: Extenda;
+        font-size: 27px;
+        margin: 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 790px) {
+    .events {
+        height: 120px;
+    }
+    .date {
+        margin: 0 12px;
+    }
 }
 
 @media (max-width: 768px) {
+    .date {
+        margin: 16px 0px 8px 0px;
+    }
     .events {
         border-radius: 16px;
         flex-direction: column;
-        margin: 16px;
-        width: 75%;
+        margin: 16px 0px;
         min-width: 0px;
-        padding: 16px;
+        height: fit-content;
+    }
+    .event-title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 8px;
     }
     .event-content {
         margin: 24px 8px 8px 8px;
+    }
+    .event-details {
+        margin: 0px 32px;
+        max-height: none;
+        height: fit-content;
+        justify-content: flex-start;
+        width: 240px;
+    }    
+    .event-image {
+        width: 316px;
+        height: auto;
     }
 }

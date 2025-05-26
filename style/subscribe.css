@@ -2,8 +2,9 @@
     background-color: rgb(231, 231, 231);
     border-radius: 4px;
     padding: 8px;
-    width: fit-content;
+    width: 96px;
     padding-top: 10px;
+    text-align: center;
 }
 
 .subscribe:hover {
@@ -21,4 +22,40 @@
     align-items: end;
     margin: 0 16px;
     width: fit-content;
+}
+
+@media (max-width: 1080px) {
+    .subscribe-content {
+        margin: 0 8px 0 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .subscribe {
+        width: 96px;
+    }
+}
+
+@media (max-width: 790px) {
+    .subscribe {
+        width: 88px;
+    }
+    .subscribe-text {
+        color: rgb(23, 23, 23);
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .subscribe {
+        width: 96px;
+    }    
+    .subscribe-text {
+        font-size: 16px;
+    }
+    .subscribe-content {
+        margin: 16px 0 32px 0;
+    }
 }
