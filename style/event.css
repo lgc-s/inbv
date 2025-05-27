@@ -160,7 +160,6 @@
         border-radius: 16px;
         flex-direction: column;
         height: fit-content;
-        margin: 16px 0px;
         min-width: 0px;
     }
 }
