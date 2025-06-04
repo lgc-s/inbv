@@ -5,33 +5,22 @@
     border: 2px solid rgb(231, 231, 231);
     border-radius: 4px;
     height: fit-content;
-    justify-content: center;
-    margin: 32px;
-    margin-top: 160px;
+    justify-content: space-around;
     padding: 16px;
-    padding-top: 18px;
     width: fit-content;
 }
 
 .contribute-area {
     align-items: center;
-    background-image: url(../img/site/front.png);
+    background-color: rgb(15, 15, 15);
     background-size: cover;
     background-position: top;
     display: flex;
     flex-direction: column;
-    height: 60vh;
-    justify-content: center;
+    height: 25vh;
+    justify-content: space-around;
+    padding: 64px 0px;
     width: 100%;
-}
-
-.contribute-text {
-    background-color: rgb(23, 23, 23);
-    border: 2px solid rgb(231, 231, 231);
-    border-radius: 4px;
-    display: flex;
-    padding: 16px;
-    padding-top: 22px;
 }
 
 .contribute-text .extenda:nth-child(1) {
@@ -49,6 +38,8 @@
 @media (max-width: 768px) {
     .contribute {
         font-size: 24px;
+        margin: 0px;
+        padding: 16px;
     }
     .contribute-text {
         flex-direction: column;
