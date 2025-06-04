@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 64px;
+    padding: 64px 0px;
 }
 
 .event-box {
@@ -43,7 +43,6 @@
 }
 
 .event-image {
-    border-radius: 4px;
     height: 100%;
 }
 

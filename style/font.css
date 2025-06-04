@@ -29,21 +29,18 @@
 .gilroy-18 {
     font-family: Gilroy;
     font-size: 18px;
-    font-weight: bold;
     margin: 0;
 }
 
 .gilroy-20 {
     font-family: Gilroy;
     font-size: 20px;
-    font-weight: bold;
     margin: 0;
 }
 
 .gilroy-24 {
     font-family: Gilroy;
     font-size: 24px;
-    font-weight: bold;
     margin: 0;
 }
 
@@ -90,18 +87,6 @@
     font-family: Extenda;
     font-size: 64px;
     margin: 0;
-}
-
-.playwrite-br {
-    font-family: PlaywriteBR;
-    font-size: 16px;
-    margin: 0;
-}
-
-.playwrite-br-32 {
-    font-family: PlaywriteBR;
-    font-size: 24px;
-    margin-top: 8px;
 }
 
 .title {

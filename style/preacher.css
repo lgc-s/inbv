@@ -5,7 +5,12 @@
     margin: 32px;
 }
 
+.preacher-text {
+    padding-top: 16px;
+}
+
 .preacher-area {
+    padding: 64px 0px;
     width: 75%;
 }
 
