@@ -3,7 +3,6 @@
     border: none;
     border-radius: 24px;
     font-size: 16px;
-    margin: 4px;
     padding: 8px;
     padding-top: 11px;
 }
@@ -13,8 +12,11 @@
     border: none;
     border-radius: 24px;
     font-size: 14px;
-    margin: 4px;
     padding: 8px;
+}
+
+.menu-button {
+    margin: 0px 8px;
 }
 
 .button b {
@@ -27,4 +29,10 @@
 
 .button-mobile:hover {
     background-color: rgb(47, 47, 47);
+}
+
+@media (max-width: 768px) {
+    .menu-button {
+        margin: 8px 0px;
+    }
 }
