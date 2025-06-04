@@ -23,31 +23,47 @@
 .gilroy {
     font-family: Gilroy;
     font-weight: bold;
+    margin: 0;
 }
 
 .gilroy-18 {
     font-family: Gilroy;
     font-size: 18px;
     font-weight: bold;
-    margin: 4px;
+    margin: 0;
 }
 
 .gilroy-20 {
     font-family: Gilroy;
     font-size: 20px;
     font-weight: bold;
-
+    margin: 0;
 }
 
 .gilroy-24 {
     font-family: Gilroy;
     font-size: 24px;
     font-weight: bold;
+    margin: 0;
 }
 
 .gilroy-32 {
     font-family: Gilroy;
     font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gilroy-40 {
+    font-family: Gilroy;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gilroy-48 {
+    font-family: Gilroy;
+    font-size: 48px;
     font-weight: bold;
     margin: 0;
 }
@@ -91,7 +107,6 @@
 .title {
     display: flex;
     flex-direction: column;    
-    margin-bottom: 16px;
     text-align: center;
 }
 
@@ -123,6 +138,14 @@
     
     .gilroy-32 {
         font-size: 30px;    
+    }
+
+    .gilroy-40 {
+        font-size: 38px;    
+    }
+
+    .gilroy-48 {
+        font-size: 46px;    
     }
     
     .extenda-32 {

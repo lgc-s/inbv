@@ -1,9 +1,20 @@
-.visit {
+.visit-area {
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    margin: 16px 0px;
+    flex-direction: column;
+    padding: 64px 0px;
+    width: 70%;
 }
 
-.visit .extenda-48:first-child{
-    margin-right: 8px;
+.visit-text {
+    padding-bottom: 32px;
 }
+
+.visit-text-bottom {
+    padding-top: 32px;
+}
+
+.visit {
+    padding-bottom: 16px;
+}
+
