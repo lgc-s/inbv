@@ -75,10 +75,10 @@
         padding: 16px;
     }
     .contribute-box {
-        width: 80%;
         margin: 16px 0px;
         min-height: 0px;
         padding: 16px;
+        width: 80%;
     }
     .contribute-options {
         align-items: center;
