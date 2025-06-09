@@ -13,11 +13,44 @@
 .contribute-area {
     align-items: center;
     background-color: rgb(15, 15, 15);
-    background-size: cover;
-    background-position: top;
     display: flex;
     flex-direction: column;
     height: 25vh;
+    justify-content: space-around;
+    padding: 64px 0px;
+    width: 100%;
+}
+
+.contribute-box {
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    min-height: 384px;
+    padding: 32px;
+    width: 20%;
+}
+
+.contribute-box * {
+    padding-bottom: 16px;
+}
+
+.contribute-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 64px;
+    width: 60%;
+}
+
+.contribute-page {
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 64px 0px;
     width: 100%;
@@ -40,6 +73,17 @@
         font-size: 24px;
         margin: 0px;
         padding: 16px;
+    }
+    .contribute-box {
+        width: 80%;
+        margin: 16px 0px;
+        min-height: 0px;
+        padding: 16px;
+    }
+    .contribute-options {
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
     }
     .contribute-text {
         flex-direction: column;
