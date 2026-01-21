@@ -1,5 +1,6 @@
 .maps {
     display: inline;
+    touch-action: pan-x pan-y;
 }
 
 .maps-mobile {

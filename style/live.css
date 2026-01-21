@@ -1,6 +1,7 @@
 .live {
-    border: 2px solid rgb(231, 231, 231);
     border-radius: 4px;
+    background-color: rgb(11, 11, 11);
     padding: 16px;
     padding-top: 18px;
+    box-shadow: 0px 0px 4px 2px white;
 }

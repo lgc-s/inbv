@@ -15,7 +15,7 @@
 }
 
 .social-button:hover .svg-hover {
-    fill: rgb(23, 23, 23);
+    fill: rgb(31, 31, 31);
 }
 
 .social-button:hover .svg-hover-invert {
@@ -23,10 +23,11 @@
 }
 
 .social-button {
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(31, 31, 31);
     border-radius: 100%;
+    box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.4);
     height: 24px;
-    margin: 0 4px;
+    margin: 0 8px;
     padding: 8px;
 }
 

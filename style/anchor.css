@@ -1,7 +1,7 @@
 .anchor {
     align-items: center;
-    background-color: rgb(23, 23, 23);
-    border: 2px solid rgb(231, 231, 231);
+    background-color: rgb(11, 11, 11);
+    box-shadow: 0px 0px 4px 2px rgb(255, 255, 255);
     border-radius: 100%;
     bottom: 0;
     display: flex;
@@ -15,6 +15,6 @@
 
 .anchor:hover {
     background-color: rgb(231, 231, 231);
-    border-color: rgb(23, 23, 23);
-    color: rgb(23, 23, 23);
+    box-shadow: 0px 0px 4px 2px rgb(0, 0, 0);
+    color: rgb(11, 11, 11);
 }
