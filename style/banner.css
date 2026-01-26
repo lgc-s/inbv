@@ -9,3 +9,9 @@
     justify-content: center;
     width: 100%;
 }
+
+@media (max-width: 1000px) {
+    .banner {
+        background-image: url(../img/site/mobile.png);
+    }
+}
