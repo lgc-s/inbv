@@ -29,11 +29,20 @@
     margin: 16px;
     min-height: 384px;
     padding: 32px;
-    width: 20%;
+    text-align: center;
+    min-width: 20%;
 }
 
-.contribute-box * {
+.contribute-box:last-child {
+    flex-direction: row;
+}
+
+.contribute-box div * {
     padding-bottom: 16px;
+}
+
+.contribute-box *:last-child {
+    padding-bottom: 0;
 }
 
 .contribute-options {
@@ -42,7 +51,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 64px;
-    width: 60%;
+    min-width: 60%;
 }
 
 .contribute-page {
@@ -67,6 +76,11 @@
     background-color: rgb(47, 47, 47);
 }
 
+.qr {
+    margin: 16px 16px 16px 32px;
+    padding: 0;
+}
+
 @media (max-width: 768px) {
     .contribute {
         font-size: 24px;
@@ -76,8 +90,11 @@
     .contribute-box {
         margin: 16px 0px;
         min-height: 0px;
-        padding: 16px;
+        padding: 24px;
         width: 80%;
+    }
+    .contribute-box:last-child {
+        flex-direction: column;
     }
     .contribute-options {
         align-items: center;
@@ -87,5 +104,16 @@
     .contribute-text {
         flex-direction: column;
         text-align: center;
+    }
+    .qr {
+        margin: 0;
+        padding: 0;
+        width: 196px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .contribute-box:last-child {
+        flex-direction: column;
     }
 }
