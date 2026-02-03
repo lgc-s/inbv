@@ -7,8 +7,8 @@ document.getElementById('box').addEventListener('click', () => {
         contentDiv.classList.add('open-box');
         contentDiv.innerHTML = `
             <div class="menu-tab-mobile">
-                <a class="menu-button" href="index.html" target="_blank"><button class="gilroy animate button white"><b>INÍCIO</b></button></a>
-                <a class="menu-button" href="contribua.html" target="_blank"><button class="gilroy animate button white"><b>CONTRIBUIR</b></button></a>
+                <a class="menu-button" href="index.html"><button class="gilroy animate button white"><b>INÍCIO</b></button></a>
+                <a class="menu-button" href="contribua.html"><button class="gilroy animate button white"><b>CONTRIBUIR</b></button></a>
             </div>
             <div class="animate social-mobile-tab">
                 <a href="https://www.instagram.com/nazarenobv/?hl=en" target="_blank">
